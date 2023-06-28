@@ -1,9 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# JS Backend Development 
 
-# Project Name
-
-> Description the project.
-
+> A repo to learn Js backend
 
 ## Built With
 
