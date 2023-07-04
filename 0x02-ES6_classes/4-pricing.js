@@ -31,4 +31,15 @@ export default class Princing {
   displayFullPrice() {
     return `${this.amount} ${this.currency.name} (${this.currency.code})`;
   }
+
+  static convertPrice(amount, conversionRate) {
+    if (typeof amount !== 'number') {
+      throw new TypeError('Amount must be a number');
+    }
+
+    if (typeof conversionRate !== 'number') {
+      throw new TypeError('conversion rate must');
+    }
+    return amount * conversionRate;
+  }
 }
